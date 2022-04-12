@@ -1,0 +1,46 @@
+.App-intro{
+    background-color: #282c34;
+    padding: 25px;
+    color: #f3eded;
+    flex: 1;
+    display: flex;
+}
+
+
+.App-intro div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 2;
+    padding: 50px;
+}
+
+.App-intro p{
+    font-size: 20px; 
+    font-family: monospace;
+}
+
+.App-intro strong{
+    color: #28bcff; 
+    font-size: 28px;
+}
+
+.App-intro img{
+    height: 400px;
+    flex: 1;
+    border-radius: 15px;
+}
+
+.notification{
+    height: 150px;
+    padding: 25px;
+    background-color: #d1d1d5;
+}
+
+.quotes{
+    padding: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 32px;
+    height: 120px;
+}
