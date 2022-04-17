@@ -1,0 +1,22 @@
+.bodySkill h3{
+    margin: 0;
+    padding: 25px;
+    font-size: 1.5em;
+}
+
+
+.containSkill{
+    display: grid;
+    grid-template: repeat(auto-fill, minmax(110px, 1fr))/ repeat(auto-fill, minmax(125px, 1fr));
+    gap: 80px;
+    padding: 25px 250px;
+}
+
+.tab{
+    text-align: center;
+}
+
+.tab img{
+    height: 100px;
+    width: 75px;
+}
