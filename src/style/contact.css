@@ -1,0 +1,14 @@
+.contactsDetails div{
+    display: flex;
+    justify-content: center;
+}
+
+.contactsDetails img{
+    height: 75px;
+    padding: 12px 0;
+}
+
+.contactsDetails h3{
+    padding: 10px 25px;
+
+}

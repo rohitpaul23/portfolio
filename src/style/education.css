@@ -1,0 +1,52 @@
+.education{
+    background-color: #d7d7d7;
+    padding: 10px 100px;
+}
+
+.educationSection{
+    background-color: aliceblue;
+    border-radius: 10px;
+    border: solid 4px #818181;
+    margin: 2px;
+}
+
+.bar{
+    font-size: 1.8em;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #818181;
+    border: solid 1px #d7d7d7;
+}
+
+.content{
+    background-color: aliceblue;
+}
+
+.certContent{
+    display: inline-block;
+    padding: 0 30px;
+}
+
+.certContent li{
+    margin: 10px 0;
+}
+
+.contentSection{
+    font-size: 1.3em;
+}
+
+.contentSection span{
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+.certTitle{
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
+.certUrl{
+    font-size: 1.3em;   
+}

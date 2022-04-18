@@ -9,6 +9,8 @@ import gitSrc from "./image/git.png";
 import githubSrc from "./image/github.png";
 import mongodbSrc from "./image/mongodb.png";
 import webpackSrc from "./image/webpack.png";
+import cSrc from "./image/c.png";
+import cplusSrc from "./image/c_plus.png";
 import javaSrc from "./image/java.png";
 import pythonSrc from "./image/python.png";
 import vsSrc from "./image/visualstudio.png";
@@ -31,6 +33,8 @@ function SkillBody(){
                 <Tab gif = {githubSrc}/>
                 <Tab gif = {mongodbSrc}/>
                 <Tab gif = {webpackSrc}/>
+                <Tab gif = {cSrc}/>
+                <Tab gif = {cplusSrc}/>
                 <Tab gif = {javaSrc}/>
                 <Tab gif = {pythonSrc}/>
                 <Tab gif = {vsSrc}/>

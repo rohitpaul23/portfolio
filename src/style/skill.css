@@ -1,9 +1,12 @@
+.bodySkill{
+    background-color: #d7d7d7;
+}
+
 .bodySkill h3{
     margin: 0;
     padding: 25px;
     font-size: 1.5em;
 }
-
 
 .containSkill{
     display: grid;
