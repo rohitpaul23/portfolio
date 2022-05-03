@@ -22,25 +22,31 @@ import linuxSrc from "./image/linux.png";
 function SkillBody(){  
     return (
         <div className='bodySkill'>
-            <h3>Skill</h3>
-            <div className="containSkill">
-                <Tab gif = {htmlSrc}/> 
-                <Tab gif = {cssSrc}/>
-                <Tab gif = {jsSrc}/>
-                <Tab gif = {reactSrc}/>
-                <Tab gif = {nodejsSrc}/>
-                <Tab gif = {gitSrc}/>
-                <Tab gif = {githubSrc}/>
-                <Tab gif = {mongodbSrc}/>
-                <Tab gif = {webpackSrc}/>
-                <Tab gif = {cSrc}/>
-                <Tab gif = {cplusSrc}/>
-                <Tab gif = {javaSrc}/>
-                <Tab gif = {pythonSrc}/>
-                <Tab gif = {vsSrc}/>
-                <Tab gif = {msSrc}/>
-                <Tab gif = {windowsSrc}/>
-                <Tab gif = {linuxSrc}/>
+            <h3>Languages</h3>
+            <div className="programmingSkill">
+                <Tab gif = {htmlSrc} name='HTML'/> 
+                <Tab gif = {cssSrc} name='CSS'/>
+                <Tab gif = {jsSrc} name='JavaScript'/>
+                <Tab gif = {mongodbSrc} name='mongoDB'/>
+                <Tab gif = {cSrc} name='C++ Language'/>
+                <Tab gif = {cplusSrc} name='C Language'/>
+                <Tab gif = {javaSrc} name='Java'/>
+                <Tab gif = {pythonSrc} name='Python'/>
+            </div>
+            <h3>Framework and Libraries</h3>
+            <div className='frameworkSkill'>
+                <Tab gif = {reactSrc} name='React'/>
+                <Tab gif = {nodejsSrc} name='NodeJS'/>
+                <Tab gif = {webpackSrc} name='webpack'/>
+            </div>
+            <h3>Software</h3>
+            <div className='softwareSkill'>
+                <Tab gif = {gitSrc} name='Git'/>
+                <Tab gif = {githubSrc} name='Github'/>
+                <Tab gif = {vsSrc} name='Visual Studio'/>
+                <Tab gif = {msSrc} name='Microsoft Office'/>
+                <Tab gif = {windowsSrc} name='Windows'/>
+                <Tab gif = {linuxSrc} name='Linux'/>            
             </div>
         </div>
        );

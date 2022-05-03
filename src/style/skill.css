@@ -8,18 +8,29 @@
     font-size: 1.5em;
 }
 
-.containSkill{
+.programmingSkill, .frameworkSkill, .softwareSkill{
     display: grid;
     grid-template: repeat(auto-fill, minmax(110px, 1fr))/ repeat(auto-fill, minmax(125px, 1fr));
     gap: 80px;
     padding: 25px 250px;
 }
 
-.tab{
+.tabSkill{
     text-align: center;
 }
 
-.tab img{
+.tabSkill img{
     height: 100px;
     width: 75px;
+}
+
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 1.5rem;
+    background-color: #545a66;
+    border-radius: 5px;
+    color: white;
 }

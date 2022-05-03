@@ -1,6 +1,6 @@
 .App-header {
     background-color: #282c34;
-    min-height: 13vh;
+    min-height: 15vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -10,13 +10,15 @@
   }
   
 .App-header img{
-    flex: 1;
+    height: 85px;
+    width: auto;
 }
 
 .App-header p{
     flex: 4;
     text-align: left;
     padding: 0 0 0 1vw;
+    font-size: 2rem;
 }
 
 .App-header button{

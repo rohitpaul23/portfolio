@@ -1,6 +1,6 @@
 import './style/header.css';
 import {useState} from 'react';
-
+import logo from './image/rp.png';
 
 function Header(props){
 
@@ -81,9 +81,9 @@ function Header(props){
 
     return (
         <div className="App-header">
-            <img src='#' className="App-logo" alt="logo" />
+            <img src={logo} className="App-logo" alt="logo" />
             <p>
-                My Portfolio
+                ROHIT PAUL
             </p>
             <button onClick={homeClicked} style = {{backgroundColor:homeColor}}>Home</button>
             <button onClick={educationClicked} style = {{backgroundColor:educationColor}}>Education</button>
