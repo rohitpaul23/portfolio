@@ -55,7 +55,7 @@
     color: red;
 }
 
-.code, .view{
+.code, .view, .notView{
     background-color: #282c34;
     padding: 1rem;
     border-radius: 5px;

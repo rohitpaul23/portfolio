@@ -3,14 +3,21 @@ import {useState} from 'react'
 
 function ExpandTab(props){
     const [viewContent, changeViewContent] = useState(<a className='view' href={props.pages} target='_blank'>View Demo</a>);
-/*
-    if (props.pages == 'na') {
-        changeViewContent(<div className='view'>View not available</div>)
+
+    const afunc = (val) => {
+        if (val == 'na') {
+            return <div className='notView'>View not available</div>;
+        }
+        else if (val == 'portfolio') {
+            return <div className='notView'>Already using it</div>;
+        }
+        else{
+            return <a className='view' href={props.pages} target='_blank'>View Demo</a>;
+        }
+
     }
-    else if (props.pages == 'portfolio') {
-        changeViewContent(<div className='view'>Already using it</div>)
-    }
-*/
+    
+
     const closeFunc = () => {
         props.sethidden(true);
     }
@@ -21,7 +28,7 @@ function ExpandTab(props){
                 <p>{props.desc}</p>
                 <div className='clickable'>
                     <a className='code' href={props.url} target='_blank'>Get Code</a>
-                    {viewContent}
+                    {afunc(props.pages)}
                 </div>
             </div>
 }
