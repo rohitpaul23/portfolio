@@ -101,8 +101,48 @@ function ProjectBody(){
                      sethidden = {setHidden}
                      />
                 <Tab title = 'Density-based Clustering Algorithm'
-                     desc = 'Two Density-based clustering algorithm which is DBSCAN and DENCLUEwith pfreprocessing that includes scaling and missing data treatment with an option to visualize data plots'
+                     desc = 'Two Density-based clustering algorithm which is DBSCAN and DENCLUE with preprocessing that includes scaling and missing data treatment with an option to visualize data plots'
                      url = 'https://github.com/rohitpaul23/density_based_clustering'
+                     pages = 'na'
+                     changetitle = {changeTitle} 
+                     changedesc = {changeDesc} 
+                     changeurl = {changeUrl}
+                     changepages = {changePages}
+                     sethidden = {setHidden}
+                     />
+                <Tab title = 'Regression model and GDA'
+                     desc = 'Implementing linear and logistic regression model and Gaussian Discriminative model for real world dataset from scratch'
+                     url = 'https://github.com/rohitpaul23/regression_and_gda'
+                     pages = 'na'
+                     changetitle = {changeTitle} 
+                     changedesc = {changeDesc} 
+                     changeurl = {changeUrl}
+                     changepages = {changePages}
+                     sethidden = {setHidden}
+                     />
+                <Tab title = 'Text classification using Naive Bayes'
+                     desc = 'Implementing Naive Bayes classifier to classify each of the Amazon Digital Music review Text into one of the given categories from scratch'
+                     url = 'https://github.com/rohitpaul23/naive_bayes'
+                     pages = 'na'
+                     changetitle = {changeTitle} 
+                     changedesc = {changeDesc} 
+                     changeurl = {changeUrl}
+                     changepages = {changePages}
+                     sethidden = {setHidden}
+                     />
+                <Tab title = 'Decision Tree and Random Forest'
+                     desc = 'Implementing Decision Tree and Random Forest to classify whether a client subscribed (y/n?) for Bank Marketing Dataset from scratch'
+                     url = 'https://github.com/rohitpaul23/decisiontree_randomforest'
+                     pages = 'na'
+                     changetitle = {changeTitle} 
+                     changedesc = {changeDesc} 
+                     changeurl = {changeUrl}
+                     changepages = {changePages}
+                     sethidden = {setHidden}
+                     />
+                <Tab title = 'Neural Network'
+                     desc = 'Work with the Poker Hand dataset available on the UCI repository to implement a generic neural network architecture to learn a model for multi-class classification'
+                     url = 'https://github.com/rohitpaul23/neural_network'
                      pages = 'na'
                      changetitle = {changeTitle} 
                      changedesc = {changeDesc} 
