@@ -1,5 +1,5 @@
 
-import profilePics from './../../image/profile.jpeg';
+import profilePics from './../../image/profile.jpg';
 import resume from './../../file/Rohit_Paul_Resume.pdf';
 
 
