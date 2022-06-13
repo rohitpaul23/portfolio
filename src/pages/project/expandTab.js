@@ -4,8 +4,17 @@ import {useState} from 'react'
 function ExpandTab(props){
     const [viewContent, changeViewContent] = useState(<a className='view' href={props.pages} target='_blank'>View Demo</a>);
 
+    const codefunc = (val) => {
+        if (val == 'paper') {
+            return <a className='code' href={props.url} target='_blank'>View Paper</a>;
+        }
+        else{
+            return <a className='code' href={props.url} target='_blank'>Get Code</a>;
+        }
+    }
+
     const afunc = (val) => {
-        if (val == 'na') {
+        if (val == 'na' || val == 'paper') {
             return <div className='notView'>View not available</div>;
         }
         else if (val == 'portfolio') {
@@ -27,7 +36,7 @@ function ExpandTab(props){
                 <h1>{props.title}</h1>
                 <p>{props.desc}</p>
                 <div className='clickable'>
-                    <a className='code' href={props.url} target='_blank'>Get Code</a>
+                    {codefunc(props.pages)}
                     {afunc(props.pages)}
                 </div>
             </div>

@@ -165,7 +165,12 @@ function ProjectBody(){
             <div className='publication'>
                 <Tab title = 'VarDenGrid'
                      desc = 'A variable density clustering algorithm that does not require any user input'
-                     url = 'https://github.com/rohitpaul23/'
+                     url = 'https://ieeexplore.ieee.org/document/9691627'
+                     pages = 'paper'
+                     changetitle = {changeTitle} 
+                     changedesc = {changeDesc} 
+                     changeurl = {changeUrl}
+                     changepages = {changePages}
                      sethidden = {setHidden}
                      />
             </div>
