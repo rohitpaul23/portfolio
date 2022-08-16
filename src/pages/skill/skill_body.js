@@ -25,6 +25,7 @@ import pandasSrc from "./image/pandas.png";
 import pytorchSrc from "./image/pytorch.png";
 import sklearnSrc from "./image/sklearn.png";
 import prologSrc from "./image/prolog.png";
+import mysqlSrc from "./image/mysql.png";
 
 
 function SkillBody(){  
@@ -40,6 +41,7 @@ function SkillBody(){
                 <Tab gif = {cplusSrc} name='C Language'/>
                 <Tab gif = {javaSrc} name='Java'/>
                 <Tab gif = {pythonSrc} name='Python'/>
+                <Tab gif = {mysqlSrc} name='MySQL'/>
                 <Tab gif = {prologSrc} name='Prolog'/>
             </div>
             <h3>Framework and Libraries</h3>
