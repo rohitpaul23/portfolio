@@ -56,3 +56,8 @@
 .certUrl{
     font-size: 1.3em;   
 }
+
+.certUrl a{
+    text-decoration: none;
+    color: #d7d7d7;
+}

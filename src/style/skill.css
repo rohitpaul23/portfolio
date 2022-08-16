@@ -10,7 +10,7 @@
 
 .programmingSkill, .frameworkSkill, .softwareSkill{
     display: grid;
-    grid-template: repeat(auto-fill, minmax(110px, 1fr))/ repeat(auto-fill, minmax(125px, 1fr));
+    grid-template: repeat(3, minmax(110px, 1fr))/ repeat(auto-fill, minmax(125px, 1fr));
     gap: 80px;
     padding: 25px 250px;
 }

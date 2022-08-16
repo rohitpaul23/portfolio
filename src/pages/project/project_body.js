@@ -150,6 +150,26 @@ function ProjectBody(){
                      changepages = {changePages}
                      sethidden = {setHidden}
                      />
+                <Tab title = 'Convolutional Neural Network on FMNIST Dataset'
+                     desc = 'Comparitive analysis of different model. Also, Applying the concept of Regularization and ResNet to Improve the CNN Model.'
+                     url = 'https://github.com/rohitpaul23/cnn_fmnist'
+                     pages = 'na'
+                     changetitle = {changeTitle} 
+                     changedesc = {changeDesc} 
+                     changeurl = {changeUrl}
+                     changepages = {changePages}
+                     sethidden = {setHidden}
+                     />
+                <Tab title = 'Kaggle Dataset'
+                     desc = 'Worked on different kaggle datasets/competition'
+                     url = 'https://github.com/rohitpaul23/kaggleAssign'
+                     pages = 'na'
+                     changetitle = {changeTitle} 
+                     changedesc = {changeDesc} 
+                     changeurl = {changeUrl}
+                     changepages = {changePages}
+                     sethidden = {setHidden}
+                     />
                 <Tab title = 'K-Means'
                      desc = 'K-Means clustering algorithm from scratch using python. Also upgrading KMean using the concept of KMean++'
                      url = 'https://github.com/rohitpaul23/k-mean'
@@ -164,7 +184,7 @@ function ProjectBody(){
             <h3>Publication</h3>
             <div className='publication'>
                 <Tab title = 'VarDenGrid'
-                     desc = 'A variable density clustering algorithm that does not require any user input'
+                     desc = 'A variable density clustering algorithm that does not require any user input and able to get variable density cluster. Comparitively worked well compared to state-of-the-art algorithm DBSCAN and OPTICS.'
                      url = 'https://ieeexplore.ieee.org/document/9691627'
                      pages = 'paper'
                      changetitle = {changeTitle} 

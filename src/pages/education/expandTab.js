@@ -79,43 +79,51 @@ function ExpandTab(props){
                     <ul>
                         <li>
                             <div className='certTitle'>Python Programming Essential</div>
-                            <div className='certUrl'>coursera.org/verify/BZU9955YK28H</div>
+                            <div className='certUrl'><a href='coursera.org/verify/BZU9955YK28H'>coursera.org/verify/BZU9955YK28H</a></div>
                         </li>
                         <li>
                             <div className='certTitle'>Python Data Representation</div>
-                            <div className='certUrl'>coursera.org/verify/4RJ6CHTZ6ZHW</div>
+                            <div className='certUrl'><a href='coursera.org/verify/4RJ6CHTZ6ZHW'>coursera.org/verify/4RJ6CHTZ6ZHW</a></div>
                         </li>
                         <li>
                             <div className='certTitle'>Python Data Analysis</div>
-                            <div className='certUrl'>coursera.org/verify/TPE4AWU7KK5R</div>
+                            <div className='certUrl'><a href='coursera.org/verify/TPE4AWU7KK5R'>coursera.org/verify/TPE4AWU7KK5R</a></div>
                         </li>
                         <li>
                             <div className='certTitle'>Python Data Visualization</div>
-                            <div className='certUrl'>coursera.org/verify/Y7SBX34Z9385</div>
+                            <div className='certUrl'><a href='coursera.org/verify/Y7SBX34Z9385'>coursera.org/verify/Y7SBX34Z9385</a></div>
                         </li>
                         <li>
                             <div className='certTitle'>Introduction to Data Science in Python</div>
-                            <div className='certUrl'>coursera.org/verify/KQKTTP4PLL2B</div>
+                            <div className='certUrl'><a href='coursera.org/verify/KQKTTP4PLL2B'>coursera.org/verify/KQKTTP4PLL2B</a></div>
                         </li>
                         <li>
                             <div className='certTitle'>Cluster Analysis in Data Mining</div>
-                            <div className='certUrl'>coursera.org/verify/MWQJF4MSSNC7</div>
+                            <div className='certUrl'><a href='coursera.org/verify/MWQJF4MSSNC7'>coursera.org/verify/MWQJF4MSSNC7</a></div>
                         </li>
                         <li>
                             <div className='certTitle'>Mathematics for Machine Learning: Linear Algebra</div>
-                            <div className='certUrl'>coursera.org/verify/B5WNS558EWCD</div>
+                            <div className='certUrl'><a href='coursera.org/verify/B5WNS558EWCD'>coursera.org/verify/B5WNS558EWCD</a></div>
                         </li>
                         <li>
                             <div className='certTitle'>Data Analysis with Python: Zero to Pandas</div>
-                            <div className='certUrl'>Jovian/freecodecamp.org </div>
+                            <div className='certUrl'><a href='https://jovian.ai/certificate/MFQTCNZQG4'>https://jovian.ai/certificate/MFQTCNZQG4</a> </div>
                         </li>
                         <li>
                             <div className='certTitle'>Deep Learning with PyTorch: Zero to GANs</div>
-                            <div className='certUrl'>Jovian/freecodecamp.org</div>
+                            <div className='certUrl'><a href='https://jovian.ai/certificate/MFQTONJTG4'>https://jovian.ai/certificate/MFQTONJTG4</a></div>
                         </li>
                         <li>
                             <div className='certTitle'>Discrete Math and Analyzing Social Graphs</div>
-                            <div className='certUrl'>coursera.org/verify/RAHD358BJ95W</div>
+                            <div className='certUrl'><a href='coursera.org/verify/RAHD358BJ95W'>coursera.org/verify/RAHD358BJ95W</a></div>
+                        </li>
+                        <li>
+                            <div className='certTitle'>M001: MongoDB Basics</div>
+                            <div className='certUrl'><a href='https://university.mongodb.com/course_completion/aef2ec93-6d26-4737-a378-923f699bdf14?utm_source=copy&utm_medium=social&utm_campaign=university_social_sharing'>https://university.mongodb.com/course_completion/aef2ec93-6d26-4737-a378-923f699bdf14?utm_source=copy&utm_medium=social&utm_campaign=university_social_sharing</a></div>
+                        </li>
+                        <li>
+                            <div className='certTitle'>Machine Learning Model Deployment using Flask</div>
+                            <div className='certUrl'><a href='https://olympus1.mygreatlearning.com/course_certificate/IMOOQIZB'>https://olympus1.mygreatlearning.com/course_certificate/IMOOQIZB</a></div>
                         </li>
                     </ul>
                 </div>
